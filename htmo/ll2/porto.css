@@ -1,0 +1,43 @@
+body{
+    box-sizing:border-box;
+  }
+  @media (min-width:100px){
+    ul li{
+      text-decoration:none;
+    }
+                nav{
+                  min-width: 100%;
+                  height: 30px;
+                  padding: 10px;
+                  background-color: aquamarine;
+                  display: flex;
+                  justify-content: flex-end;
+              }
+              ul li {
+                  display: inline;
+              }
+  }
+  
+  #welcome-section{
+    height: 100vh;
+    width:  100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  li a{
+    vertical-align:center;
+    text-decoration:none;
+  }
+  
+  body{
+    overflow-x:hidden;
+  }
+  #hover:hover{
+    text-decoration:underline
+  }
+  
+   a{
+     text-decoration:none;
+   }
